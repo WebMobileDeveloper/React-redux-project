@@ -32,12 +32,12 @@ export default class Contact extends React.Component {
         });
     }
 
-    /*handleClick(key) {
+    handleClick(key) {
         this.setState({
             selectedKey: key
         });
         //console.log(key, 'is selected');
-    }*/
+    }
 
     handleCreate(contact) {
         this.setState({
